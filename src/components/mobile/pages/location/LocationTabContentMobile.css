@@ -1,0 +1,34 @@
+.content-location-mobile {
+	padding: 24px 32px;
+}
+
+.content-location-mobile > .content-block {
+	font-size: 14px;
+	color: var(--secondary-text-color);
+}
+
+.content-location-mobile > .content-block > .title {
+	font-family: 'Inter-Bold';
+	color: var(--main-text-color);
+	font-size: 24px;
+}
+
+.content-location-mobile > .content-block > img {
+	display: block;
+	margin: auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	user-select: none;
+	width: 90%;
+}
+
+.content-location-mobile > .content-block > p {
+	font-family: 'Inter-Regular';
+	margin-top: 16px;
+	font-size: 16px;
+}
+
+.content-location-mobile > .content-block > p > .bold-text {
+	font-family: 'Inter-Bold';
+	color: var(--secondary-text-color-dark);
+}

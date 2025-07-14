@@ -1,0 +1,17 @@
+@import "./styles/media.css";
+@import "./styles/root.css";
+
+body {
+	margin: 0;
+	min-width: 270px;
+
+	background-color: rgb(var(--page-background-color));
+}
+
+body.overflowed {
+	overflow: hidden;
+}
+
+* {
+	font-family: 'Inter-Medium';
+}

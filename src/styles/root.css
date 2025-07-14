@@ -1,0 +1,16 @@
+:root {
+	--ui-color: 255, 0, 108;
+	--ui-color: 255, 0, 108;
+	--header-background-color: 255, 255, 255;
+	--page-background-color: 242, 242, 242;
+	--highlighting-active-item: 29, 29, 29, 0.05;
+	--text-color-grey: 119, 119, 119;
+	--blackout: 92, 92, 92;
+	--mobile-title-text: 243, 243, 243;
+	--main-text-color: 32, 32, 32;
+	--secondary-text-color: 119, 119, 119;
+	--secondary-text-color-dark: 74, 74, 74;
+	--nonactive-text-color: 171, 171, 171;
+	--border-color: 29, 29, 29, 0.15;
+	--landmark-image-corner-radius: 10px;
+}

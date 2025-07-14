@@ -1,0 +1,13 @@
+.tags-location-mobile {
+    padding: 0px 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags-location-mobile > a {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: rgb(var(--nonactive-text-color));
+    font-style: italic;
+	font-size: 16px;
+}

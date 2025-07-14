@@ -1,0 +1,21 @@
+.location-geography-item-mobile {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(var(--mobile-title-text));
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+
+.location-geography-item-icon-mobile {
+    color: rgb(var(--mobile-title-text));
+    cursor: pointer;
+}
+
+.location-geography-item-title-mobile {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(var(--mobile-title-text));
+    text-shadow: 2px 2px rgba(34, 60, 80, 0.2);
+}

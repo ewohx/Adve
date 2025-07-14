@@ -1,0 +1,19 @@
+@media (max-width: 1079px) {
+    .app-mobile {
+        display: block;
+    }
+
+    .app-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 1080px) {
+    .app-mobile {
+        display: none;
+    }
+
+    .app-desktop {
+        display: block;
+    }
+}

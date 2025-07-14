@@ -1,0 +1,56 @@
+.menu-mobile {
+    height: 100%;
+    position: fixed;
+    user-select: none;
+    z-index: 1001;
+    top: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    background: rgba(var(--page-background-color));
+    padding-top: 32px;
+}
+
+.menu-mobile.moving {
+    transition: none;
+    box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu-mobile > .line {
+	height: 2px;
+	margin-left: 32px;
+	width: 160px;
+	background-color: rgba(var(--highlighting-active-item));
+	border-radius: 16px;
+}
+
+.menu-mobile > .header {
+	margin-bottom: 16px;
+}
+
+.menu-mobile > .footer {
+	margin-top: 16px;
+}
+
+.menu-mobile > .header > button,
+.menu-mobile > .footer > button {
+	width: 160px;
+	height: 48px;
+	padding: 16px;
+	margin-left: 16px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+	user-select: none;
+	color: rgba(var(--text-color-grey));
+	transition: background-color 0.3s ease;
+	border-radius: 16px;
+}
+
+.menu-mobile > .header > button:hover,
+.menu-mobile > .footer > button:hover {
+	background-color: rgba(var(--highlighting_active_item));
+	border-radius: 7px;
+}
